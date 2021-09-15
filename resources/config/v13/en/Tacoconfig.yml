@@ -761,86 +761,56 @@ recipes:
     age: 3
     lore: Made with raw egg
 
+  Ender_tea:
+    name: Tea of discordance/Ender tea/Brilliant Ender Tea
+    ingredients: 
+      - Ender_Pearl/10
+  cookingtime: 5
+  distillruns: 1
+  age: 0
+  color: '801BD5'
+  alcohol: 2
+  difficulty: 6
+  effects:
+    - WEAKNESS/10
+    - POISON/1-2/10/20
+    - NIGHT_VISION/10
+  lore: 
+    - +Not very healthy
+    - ++ Looks purple
+    - +++ Nuclear violet
+  
+  
+   g_vodka:
+     name: 'Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka'
+     ingredients:
+       - Potato/10
+       - Gold_Nugget/2
+     cookingtime: 18
+     distillruns: 3
+     age: 0
+     color: ORANGE
+     difficulty: 6
+     alcohol: 20
+     effects:
+       - WEAKNESS/28
+       - POISON/4
 
+   fire_whiskey:
+     name: Powdery Whiskey/Burning Whiskey/Blazing Whiskey
+     ingredients:
+       - Wheat/10
+       - Blaze_Powder/2
+     cookingtime: 12
+     distillruns: 3
+     distilltime: 55
+     wood: 4
+     age: 18
+     color: ORANGE
+     difficulty: 7
+     alcohol: 28
+     drinkmessage: 'You get a burning feeling in your mouth'
 
-
-# I don't want to add more Recipes to the default config, as they would be public and viewable by users to cheat.
-# It is up to the Serveradmin to change and add Recipes, so players cannot cheat from the default config.
-# Some suggestions for recipes you could use:
-
-  # g_vodka:
-  #   name: 'Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka'
-  #   ingredients:
-  #     - Potato/10
-  #     - Gold_Nugget/2
-  #   cookingtime: 18
-  #   distillruns: 3
-  #   age: 0
-  #   color: ORANGE
-  #   difficulty: 6
-  #   alcohol: 20
-  #   effects:
-  #     - WEAKNESS/28
-  #     - POISON/4
-
-  # fire_whiskey:
-  #   name: Powdery Whiskey/Burning Whiskey/Blazing Whiskey
-  #   ingredients:
-  #     - Wheat/10
-  #     - Blaze_Powder/2
-  #   cookingtime: 12
-  #   distillruns: 3
-  #   distilltime: 55
-  #   wood: 4
-  #   age: 18
-  #   color: ORANGE
-  #   difficulty: 7
-  #   alcohol: 28
-  #   drinkmessage: 'You get a burning feeling in your mouth'
-
-# Without Alcohol:
-
-  # hot_choc:
-  #   name: Hot Chocolate
-  #   ingredients:
-  #     - cookie/3
-  #   cookingtime: 2
-  #   color: DARK_RED
-  #   difficulty: 2
-  #   effects:
-  #     - FAST_DIGGING/40
-
-  # iced_coffee:
-  #   name: Watery Coffee/Iced Coffee/Strong Iced Coffee
-  #   ingredients:
-  #     - cookie/8
-  #     - snowball/4
-  #     - milk_bucket/1
-  #   cookingtime: 1
-  #   color: BLACK
-  #   difficulty: 4
-  #   alcohol: -8
-  #   effects:
-  #     - REGENERATION/30
-  #     - SPEED/10
-
-
-# More Recipe ideas:
-# Dandelion Liquor
-# Beetroot Spirit,
-# Poppy Liquor: Macum/Grand Poppy,
-# Bamboo Liquor: Chu Yeh Ching,
-# Cachaca,
-# Cognac,
-# Sake,
-# Buorbon,
-# Moonshine,
-# Different Wines,
-# Brandy,
-# Amaretto,
-# etc. as well as variations like,
-# Pumpkin Spice Beer,
-# Melon Vodka
 
 # There are a lot of items in Minecraft like Vines, Milk and items added by plugins that would make great ingredients.
 
