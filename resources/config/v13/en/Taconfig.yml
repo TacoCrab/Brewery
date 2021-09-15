@@ -396,6 +396,14 @@ cauldron:
     color: 'ffecb3' # yellow-orange
     cookParticles:
       - 'ffecb3/2'
+      
+   Ender_Base:
+    name: Watery pearls
+    ingredients:
+      -Ender_Pearl
+     color: '0000FE'
+     cookParticles:
+      - '0000FE' #neon blue
 
 
 
@@ -760,27 +768,46 @@ recipes:
     wood: 0
     age: 3
     lore: Made with raw egg
+    
+#Custom Specialty Potions A la taco //////////////////////////////////////////////////////////////////
 
   Ender_tea:
     name: Tea of discordance/Ender tea/Brilliant Ender Tea
     ingredients: 
       - Ender_Pearl/10
-  cookingtime: 5
-  distillruns: 1
-  age: 0
-  color: '801BD5'
-  alcohol: 2
-  difficulty: 6
-  effects:
-    - WEAKNESS/10
-    - POISON/1-2/10/20
-    - NIGHT_VISION/10
+    cookingtime: 5
+   distillruns: 1
+    age: 0
+    color: '801BD5'
+    alcohol: 2
+    difficulty: 6
+    effects:
+     - WEAKNESS/10
+     - POISON/1-2/10/20
+     - NIGHT_VISION/10
   lore: 
     - +Not very healthy
     - ++ Looks purple
     - +++ Nuclear violet
+    
+  Glow_wine:
+    name: Pale wine/Glowberry wine/Glowing wine
+    ingredients: 
+      - GLOW_BERRIES/7
+      - GLOWSTONE_DUST/2
+    cookingtime: 12
+    distillruns: 0
+    age: 18
+    wood: 5
+    difficulty: 7
+    alcohol:  18
+    effects:
+     - REGENERATION/1-3/ 10-20
+     - NIGHT_VISION/1-200
+    Lore: +++ &7Liquid sunlight
   
-  
+   Beg_stew:
+     name: ...stew?/Beggar's stew/  
    g_vodka:
      name: 'Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka'
      ingredients:
@@ -795,6 +822,9 @@ recipes:
      effects:
        - WEAKNESS/28
        - POISON/4
+     Lore: 
+       - +++Glimmers faintly
+      
 
    fire_whiskey:
      name: Powdery Whiskey/Burning Whiskey/Blazing Whiskey
