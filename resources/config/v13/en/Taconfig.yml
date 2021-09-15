@@ -804,10 +804,24 @@ recipes:
     effects:
      - REGENERATION/1-3/ 10-20
      - NIGHT_VISION/1-200
-    Lore: +++ &7Liquid sunlight
+    Lore: +++ &6Liquid sunlight
   
    Beg_stew:
-     name: ...stew?/Beggar's stew/  
+     name: ...stew?/ 'stew' /Beggar's stew
+     ingredients:
+        - BONE/5
+        - ROTTEN_FLESH/8
+     cookingtime: 10
+     difficulty: 4
+     distillruns: 1
+     alcohol: 1
+     color: RED
+     age: 0
+     effects:
+       - WEAKNESS/120-0
+       - HEAL/0-3
+       - DAMAGE_RESISTANCE/0-2/0-80
+     lore: +...Why? ++Keeps you alive +++&6A true beggar's meal
    g_vodka:
      name: 'Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka'
      ingredients:
