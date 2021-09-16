@@ -767,7 +767,7 @@ recipes:
     difficulty: 6
     effects:
      - WEAKNESS/10
-     - POISON/1-2/10/20
+     - POISON/1/10-20
      - NIGHT_VISION/10
   lore: 
     - +Not very healthy
@@ -829,7 +829,6 @@ recipes:
        - POISON/4
      Lore: 
        - +++Glimmers faintly
-      
 
    fire_whiskey:
      name: Powdery Whiskey/Burning Whiskey/Blazing Whiskey
