@@ -154,22 +154,6 @@ customItems:
  # customModelData: Custom Model Data Tag. This is a number that can be used to add custom textures to the item.
 
 cauldron:
-  # Example with all possible entries
-  ex:
-    name: Example
-    ingredients:
-      - Bedrock/2
-      - Diamond
-    color: BLACK
-    cookParticles:
-      - 'RED/5'
-      - 'WHITE/10'
-      - '800000/25' # maroon
-    lore:
-      - An example for a Base Potion
-      - This is how it comes out of a Cauldron
-    customModelData: 545
-
   # -- One Ingredient: --
   wheat:
     name: Fermented wheat
@@ -769,7 +753,7 @@ recipes:
     age: 3
     lore: Made with raw egg
     
-#Custom Specialty Potions A la taco //////////////////////////////////////////////////////////////////
+  #Custom Specialty Potions A la taco //////////////////////////////////////////////////////////////////
 
   Ender_tea:
     name: Tea of discordance/Ender tea/Brilliant Ender Tea
@@ -821,9 +805,16 @@ recipes:
        - WEAKNESS/120-0
        - HEAL/0-3
        - DAMAGE_RESISTANCE/0-2/0-80
-     lore: +...Why? ++Keeps you alive +++&6A true beggar's meal
+     lore: +...Why? ++Keeps you alive +++&Street urchin's feast
+     
+    Pigbrew
+      name: Pig's brew/ piglin ale/ gilded piglin ale
+      ingredients:
+        - NETHER_WART/4
+        -
+     
    g_vodka:
-     name: 'Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka'
+     name: Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka
      ingredients:
        - Potato/10
        - Gold_Nugget/2
@@ -854,10 +845,6 @@ recipes:
      difficulty: 7
      alcohol: 28
      drinkmessage: 'You get a burning feeling in your mouth'
-
-
-# There are a lot of items in Minecraft like Vines, Milk and items added by plugins that would make great ingredients.
-
 
 # -- Plugin Compatibility --
 
