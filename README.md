@@ -1,1 +1,1 @@
-### This is my version of the Brewery plugin from DieReicheErethons with additional fantasy-styled drinks.
+The brewery plugin- a quite amazing plugin that allows you to make drinks of various types. However, it's all quite sadly based in realism. However, this is Minecraft, and there's fantasy, so why not fantastic drinks?
