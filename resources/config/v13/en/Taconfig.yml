@@ -829,8 +829,21 @@ recipes:
      ingredients: 
        - GHAST_TEAR/12
        - MAGMA_CREAM/2
+       - SNOW_BLOCK/3
+       cookingtime: 22
+       distillruns: 0
+       age: 1
+       barrel: 8
+       color: 'F5F5F5' #White smoke
+       difficulty: 10
+       alcohol: 55
+       effects:
+        - POISON/4-0/10-0
+        - Fire_Resistance/0-1/0-200
+        - SLOW/1/10-120
+       Lore: +You messed it up ++Will mess you up.
+       drinkmessage: 'brrrr'
        
-     
    g_vodka:
      name: Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka
      ingredients:
