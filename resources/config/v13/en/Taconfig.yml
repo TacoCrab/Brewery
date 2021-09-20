@@ -15,7 +15,7 @@ enableHome: true
 # 'cmd: home' = /home will be executed by the player. He has to have permissions for it without any delay!
 # 'cmd: spawn' = /spawn will be executed by the player.
 # 'cmd: whatever' = /whatever will be executed by the player.
-homeType: 'cmd: home'
+homeType: 'cmd: wild'
 
 # If the player "wakes up" at a random place when offline for some time while drinking (the places have to be defined with '/brew Wakeup add' through an admin)
 # The Player wakes at the nearest of two random places of his world [true]
@@ -29,7 +29,7 @@ enableKickOnOverdrink: false
 
 # If the Player vomits on high drunkeness (drops item defined below) [true]
 # The item can not be collected and stays on the ground until it despawns.
-enablePuke: true
+enablePuke: false
 
 # Item that is dropped multiple times uncollectable when puking [Soul_Sand]
 pukeItem: Soul_Sand
@@ -1132,6 +1132,11 @@ words:
    match: false
    percentage: 80
    alcohol: 40
+   
+   replace: -start
+   to: 'hhheh'
+   percentage: 40
+   alcohol: 50
 
 -  replace: -space
    to: ''
