@@ -805,7 +805,10 @@ recipes:
        - WEAKNESS/120-0
        - HEAL/0-3
        - DAMAGE_RESISTANCE/0-2/0-80
-     lore: +...Why? ++Keeps you alive +++&6Street urchin's feast
+     lore: 
+     - +...Why? 
+     - ++Keeps you alive 
+     - +++&6Street urchin's feast
      
     Pigbrew
       name: Pig's brew/ piglin ale/ gilded piglin ale
@@ -839,11 +842,31 @@ recipes:
        alcohol: 55
        effects:
         - POISON/4-0/10-0
-        - Fire_Resistance/0-1/0-200
+        - FIRE_RESISTANCE/0-1/0-200
         - SLOW/1/10-120
-       Lore: +You messed it up ++Will mess you up.
+       Lore: 
+        - +You messed it up 
+        - ++Will mess you up.
        drinkmessage: 'brrrr'
-       
+   
+   minedrink: 
+     name: stoney stew/mining stew/ bejeweled stew
+     ingredients: 
+     - COBBLESTONE/1
+     - COBBLED_DEEPSLATE/1
+     - GOLD_INGOT/1
+     - WHEAT/4
+     cookingtime: 4
+     distillruns: 0
+     age: 0
+     color: '7FFFD4' #aquamarine if I got it right
+     difficulty: 2
+     alcohol: 12
+     effects:
+       - FAST_MINING/2/0-180
+       - NIGHT_VISION/0-180
+     Lore: +a bit too much cobble
+     
    g_vodka:
      name: Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka
      ingredients:
