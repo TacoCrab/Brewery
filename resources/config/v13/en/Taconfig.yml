@@ -760,7 +760,7 @@ recipes:
     ingredients: 
       - Ender_Pearl/10
     cookingtime: 5
-   distillruns: 1
+    distillruns: 1
     age: 0
     color: '801BD5'
     alcohol: 2
@@ -769,10 +769,10 @@ recipes:
      - WEAKNESS/10
      - POISON/1/10-20
      - NIGHT_VISION/10
-  lore: 
-    - +Not very healthy
-    - ++ Looks purple
-    - +++ Nuclear violet
+    lore: 
+     - + Not very healthy
+     - ++ Looks purple
+     - +++ Nuclear violet
     
   Glow_wine:
     name: Pale wine/Glowberry wine/Glowing wine
@@ -806,11 +806,11 @@ recipes:
        - HEAL/0-3
        - DAMAGE_RESISTANCE/0-2/0-80
      lore: 
-     - +...Why? 
-     - ++Keeps you alive 
-     - +++&6Street urchin's feast
+     - + ...Why? 
+     - ++ Keeps you alive 
+     - +++ &6Street urchin's feast
      
-    Pigbrew
+    Pigbrew:
       name: Pig's brew/ piglin ale/ gilded piglin ale
       ingredients:
         - NETHER_WART/4
@@ -825,7 +825,7 @@ recipes:
         - POISON/10
         - FIRE_RESISTANCE/120
         - NIGHT_VISION/0-5
-       lore: +++Piglin's choice of drink
+       lore: +++ Piglin's choice of drink
        
    Ghast_drink:
      name: Ghast's sadness/Banshee brew
@@ -848,7 +848,28 @@ recipes:
         - +You messed it up 
         - ++Will mess you up.
        drinkmessage: 'brrrr'
-   
+   Longnight: 
+     name: Coffee sludge/spresso/ The Long Night
+     ingredients: 
+     - Cocoa_beans/64
+     - Sugar/2
+     cookingtime: 16
+     distillruns: 5
+     distilltime: 10
+     age: 0
+     difficulty: 8
+     color: '8B4513' #dark saddlebrown
+     alcohol: -60
+     effects:
+      - POISON/8/2
+      - GLOWING/0-1/0-800
+      - SPEED/1-2/40-500
+      - NIGHT_VISION/1/4-50
+     lore: 
+     - +cocoa bean sludge
+     - +
+     
+     
    minedrink: 
      name: stoney stew/mining tea/ bejeweled infusion
      ingredients: 
