@@ -850,7 +850,7 @@ recipes:
        drinkmessage: 'brrrr'
    
    minedrink: 
-     name: stoney stew/mining stew/ bejeweled stew
+     name: stoney stew/mining tea/ bejeweled infusion
      ingredients: 
      - COBBLESTONE/1
      - COBBLED_DEEPSLATE/1
