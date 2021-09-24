@@ -766,13 +766,13 @@ recipes:
     alcohol: 2
     difficulty: 6
     effects:
-     - WEAKNESS/10
-     - POISON/1/10-20
-     - NIGHT_VISION/10
+      - WEAKNESS/10
+      - POISON/1/10-20
+      - NIGHT_VISION/10
     lore: 
-     - + Not very healthy
-     - ++ Looks purple
-     - +++ Nuclear violet
+      - + Not very healthy
+      - ++ Looks purple
+      - +++ Nuclear violet
     
   Glow_wine:
     name: Pale wine/Glowberry wine/Glowing wine
@@ -786,108 +786,110 @@ recipes:
     difficulty: 7
     alcohol:  18
     effects:
-     - REGENERATION/1-2/ 10-20
-     - NIGHT_VISION/1-200
+      - REGENERATION/1-2/ 10-20
+      - NIGHT_VISION/1-200
     Lore: +++ &6Liquid sunlight
   
-   Beg_stew:
-     name: ...stew?/ 'stew' /Beggar's stew
-     ingredients:
-        - BONE/5
-        - ROTTEN_FLESH/8
-     cookingtime: 10
-     difficulty: 4
-     distillruns: 1
-     alcohol: 1
-     color: RED
-     age: 0
-     effects:
-       - WEAKNESS/120-0
-       - HEAL/0-3
-       - DAMAGE_RESISTANCE/0-2/0-80
-     lore: 
-     - + ...Why? 
-     - ++ Keeps you alive 
-     - +++ &6Street urchin's feast
+  Beg_stew:
+    name: ...stew?/ 'stew' /Beggar's stew
+    ingredients:
+      - BONE/5
+      - ROTTEN_FLESH/8
+    cookingtime: 10
+    difficulty: 4
+    distillruns: 1    
+    alcohol: 1
+    color: RED
+    age: 0
+    effects:
+      - WEAKNESS/120-0
+      - HEAL/0-3
+      - DAMAGE_RESISTANCE/0-2/0-80
+    lore: 
+      - + ...Why? 
+      - ++ Keeps you alive 
+      - +++ &6Street urchin's feast
      
-    Pigbrew:
-      name: Pig's brew/ piglin ale/ gilded piglin ale
-      ingredients:
-        - NETHER_WART/4
-        - BLAZE_POWDER/1
-        - GOLD_NUGGET/4
-       cookingtime: 14
-       age: 15
-       barrel: 7
-       color: 'A63D27' #lightish red
-       alcohol: 12
-       effects: 
-        - POISON/10
-        - FIRE_RESISTANCE/120
-        - NIGHT_VISION/0-5
-       lore: +++ Piglin's choice of drink
+  Pigbrew:
+    name: Pig's brew/ piglin ale/ gilded piglin ale
+    ingredients:
+      - NETHER_WART/4
+      - BLAZE_POWDER/1
+      - GOLD_NUGGET/4
+    cookingtime: 14
+    age: 15
+    barrel: 7
+    color: 'A63D27' #lightish red
+    alcohol: 12
+    effects: 
+      - POISON/10
+      - FIRE_RESISTANCE/120
+      - NIGHT_VISION/0-5
+    lore: +++ Piglin's choice of drink
        
-   Ghast_drink:
-     name: Ghast's sadness/Banshee brew
-     ingredients: 
-       - GHAST_TEAR/12
-       - MAGMA_CREAM/2
-       - SNOW_BLOCK/3
-       cookingtime: 22
-       distillruns: 0
-       age: 1
-       barrel: 8
-       color: 'F5F5F5' #White smoke
-       difficulty: 10
-       alcohol: 55
-       effects:
-        - POISON/4-0/10-0
-        - FIRE_RESISTANCE/0-1/0-200
-        - SLOW/1/10-120
-       Lore: 
-        - +You messed it up 
-        - ++Will mess you up.
-       drinkmessage: 'brrrr'
-   Longnight: 
-     name: Coffee sludge/spresso/ The Long Night
-     ingredients: 
-     - Cocoa_beans/64
-     - Sugar/2
-     cookingtime: 16
-     distillruns: 5
-     distilltime: 10
-     age: 0
-     difficulty: 8
-     color: '8B4513' #dark saddlebrown
-     alcohol: -60
-     effects:
+  Ghast_drink:
+    name: Ghast's sadness/Banshee brew
+    ingredients: 
+      - GHAST_TEAR/12
+      - MAGMA_CREAM/2
+      - SNOW_BLOCK/3
+    cookingtime: 22
+    distillruns: 0
+    age: 1
+    barrel: 8
+    color: 'F5F5F5' #White smoke
+    difficulty: 10
+    alcohol: 55
+    effects:
+      - POISON/4-0/10-0
+      - FIRE_RESISTANCE/0-1/0-200
+      - SLOW/1/10-120
+    Lore: 
+      - +You messed it up 
+      - ++Will mess you up.
+    drinkmessage: 'brrrr'
+       
+  Longnight: 
+    name: Coffee sludge/spresso/ The Long Night
+    ingredients: 
+      - Cocoa_beans/64
+      - Sugar/2
+    cookingtime: 16
+    distillruns: 5
+    distilltime: 10
+    age: 0
+    difficulty: 8
+    color: '8B4513' #dark saddlebrown
+    alcohol: -60
+    effects:
       - POISON/8/2
       - GLOWING/0-1/0-800
       - SPEED/1-2/40-500
       - NIGHT_VISION/1/4-50
-     lore: 
-     - +cocoa bean sludge
-     - +
+    Lore: 
+      - +cocoa bean sludge
+      - ++Spressy Spresso
+      - +++&8Prepare for a Long Night
      
-     
-   minedrink: 
-     name: stoney stew/mining tea/ bejeweled infusion
-     ingredients: 
-     - COBBLESTONE/1
-     - COBBLED_DEEPSLATE/1
-     - GOLD_INGOT/1
-     - WHEAT/4
-     cookingtime: 4
-     distillruns: 0
-     age: 0
-     color: '7FFFD4' #aquamarine if I got it right
-     difficulty: 2
-     alcohol: 12
-     effects:
-       - FAST_MINING/2/0-180
-       - NIGHT_VISION/0-180
-     Lore: +a bit too much cobble
-     
+  minedrink: 
+    name: stoney stew/mining tea/ bejeweled infusion
+    ingredients: 
+      - COBBLESTONE/1
+      - COBBLED_DEEPSLATE/1
+      - GOLD_INGOT/1
+      - WHEAT/4
+    cookingtime: 4
+    distillruns: 0
+    age: 0
+    color: '7FFFD4' #aquamarine if I got it right
+    difficulty: 2
+    alcohol: 12
+    effects:
+      - FAST_MINING/2/0-180
+      - NIGHT_VISION/0-180
+    Lore: 
+      - +a bit too much cobble
+    
    g_vodka:
      name: Rancid Vodka/&6Golden Vodka/&6Shimmering Golden Vodka
      ingredients:
@@ -984,7 +986,7 @@ brewHopperDump: true
 # If written Chat is distorted when the Player is Drunk, so that it looks like drunk writing
 # How much the chat is distorted depends on how drunk the Player is
 # Below are settings for what and how changes in chat occur
-enableChatDistortion: true
+enableChatDistortion: false
 
 # Log to the Serverlog what the player actually wrote, before his words were altered [false]
 logRealChat: false
